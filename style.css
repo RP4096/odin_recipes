@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(250, 183, 159);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header{
+    background-color: rgb(255, 54, 54);
+}
+
+
+header h1{
+    font-weight: 800;
+    font-size: 35px;
+
+}
+
+.list{
+    color: rgb(161, 15, 15);
+}
+
+.list li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+footer p{
+    text-align: center;
+}
+
+.outro{
+    text-shadow: 0cap;
+    font-size: 10px;
+}
+
+#title{
+    background-color: rgb(255, 22, 22);
+}
