@@ -1,27 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(250, 183, 159);
+    background-color: rgb(255, 222, 209);
     font-family: 'Courier New', Courier, monospace;
 }
 
 
 header{
     background-color: rgb(255, 54, 54);
+    height: 120px;
+    margin-bottom: 15px;
 }
 
 
 header h1{
     font-weight: 800;
-    font-size: 35px;
+    font-size: 45px;
+    text-align: center;
+    padding: 12px 0px;
+    text-shadow:rgb(36, 36, 36) 5px 1px 10px;
+    color: rgb(255, 191, 16);
+}
 
+
+main{
+    padding-left: 20px;
+}
+
+main h3{
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color: rgb(255, 220, 123);
+}
+
+
+.info{
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+
+.left-p{
+    text-align: right;
+    font-size: 10px;
+    padding: 0px 20px;
 }
 
 .list{
     color: rgb(161, 15, 15);
+    padding-left: 60px;
+    padding-top: 20px;
 }
 
 .list li{
     font-family:'Times New Roman', Times, serif;
     font-size: 18px;
+    padding: 5px;
+    
+}
+
+footer{
+    margin-top: 300px;
 }
 
 footer p{
